@@ -1,0 +1,33 @@
+@-moz-document url-prefix(about:)  {
+  * {
+    color: #c1c1c1 !important;
+    background-color: #3c3c3c !important;
+  }
+}
+
+@-moz-document url-prefix(about:home)  {
+  * {
+    color: #c1c1c1 !important;
+    background-color: #3c3c3c !important;
+  }
+}
+
+@-moz-document url-prefix(view-source)  {
+  * {
+    color: #c1c1c1 !important;
+    background-color: #3c3c3c !important;
+  }
+}
+
+@-moz-document url("about:downloads")  {
+
+    #contentAreaDownloadsView {
+      padding:0 !important;
+      margin:-1px !important;
+    }
+    
+    #downloadsRichListBox {
+      background: #3c3c3c !important;
+      color:#fff !important;
+    }
+}

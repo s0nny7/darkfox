@@ -1,0 +1,95 @@
+#urlbar-input::-moz-selection {
+	background-color: dodgerblue !important;
+}
+
+.urlbarView-row:hover {
+	background-color: #1e8fff80 !important;
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistbox {
+	background: #1f1f1f !important;
+}
+
+#urlbarview-results {
+	background-color: #1f1f1f !important;
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistitem {
+	border-bottom-color: #333 !important;
+}
+
+.autocomplete-richlistitem .ac-title,
+.autocomplete-richlistitem .ac-action,
+.autocomplete-richlistitem .ac-separator {
+	color: white !important;
+}
+
+#PopupAutoCompleteRichResult .ac-url:not([selected="true"]) {
+	color: dodgerblue !important;
+}
+
+.autocomplete-richlistitem[selected="true"] {
+	background-color: dodgerblue !important;
+}
+
+.autocomplete-richlistitem[selected="true"] .ac-title,
+.ac-title[selected],
+.autocomplete-richlistitem[selected="true"] .ac-action,
+.ac-action[selected],
+.autocomplete-richlistitem[selected="true"] .ac-separator,
+.ac-separator[selected] {
+	color: white !important;
+	font-family: Fira Sans !important;
+	font-size: 12px !important;
+}
+
+.autocomplete-richlistitem[selected="true"] .ac-url,
+.ac-url[selected] {
+	color: dodgerblue !important;
+	font-family: Fira Sans !important;
+	font-size: 12px !important;
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistitem:hover {
+	background-color: dodgerblue !important;
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistitem[selected] {
+	background-color: dodgerblue !important;
+}
+
+/* Position page title, set font-size */
+#PopupAutoCompleteRichResult .autocomplete-richlistitem:not([actiontype="searchengine"]) .ac-title,
+.urlbarView-row:not([type="search"]) .urlbarView-title {
+
+	color: white !important;
+	font-family: Fira Sans !important;
+	font-size: 12px !important;
+}
+
+/* Position page url / action, set font-size */
+#PopupAutoCompleteRichResult .autocomplete-richlistitem:not([actiontype="searchengine"]) .ac-url,
+#PopupAutoCompleteRichResult .autocomplete-richlistitem:not([actiontype="searchengine"]) .ac-action,
+.urlbarView-row:not([type="search"]) .urlbarView-secondary {
+	color: dodgerblue !important;
+	font-family: Fira Sans !important;
+	font-size: 12px !important;
+}
+
+/* Constrains urlbar popup to urlbar width */
+/* Firefox 70+ */
+
+#urlbar-container {
+	background-color: #333 !important;
+}
+
+.urlbarView {
+	color: #f1f1f1 !important;
+	background: #3c3c3c !important;
+	border-color: transparent !important;
+}
+
+#urlbar[open] {
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
