@@ -1,0 +1,11 @@
+/*toolbar main menu*/
+.panel-arrowcontent
+{border-radius: 12px !important;}
+
+menupopup {
+	border-radius: 12px !important;
+}
+
+.csd.popup & {
+	border-radius: 12px !important;
+}
