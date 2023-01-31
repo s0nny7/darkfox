@@ -1,7 +1,11 @@
 @-moz-document url("chrome://browser/content/browser.xhtml") {
     :root:not([inFullscreen]) #browser { margin-bottom: 33px; }
     :root:not([inFullscreen]) #TabsToolbar { position: fixed; display: flex; bottom: 0px; width: 100%; }
-    #tabbrowser-tabs { flex-grow: 1; }
+    #tabbrowser-tabs {
+        flex-grow: 1;
+        height: 10px !important;
+        color: black;
+    }
     #tabbrowser-tabs > .tabbrowser-arrowscrollbox { width: -moz-available }
     #TabsToolbar-customization-target { width: 100%; }
     .toolbar-items { width: 100%; }

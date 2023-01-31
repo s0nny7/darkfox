@@ -1,3 +1,14 @@
+#identity-icon, #tracking-protection-icon,
+#reader-mode-button-icon, #star-button,
+#permissions-granted-icon {
+	filter: grayscale(1) invert(1) !important;
+}
+#identity-icon-box {
+	color: dodgerblue !important;
+}
+#urlbar-input {
+	color: #f1f1f1 !important;
+}
 #urlbar-input::-moz-selection {
 	background-color: dodgerblue !important;
 }
